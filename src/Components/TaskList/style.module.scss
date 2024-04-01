@@ -1,0 +1,125 @@
+.homepage__body {
+    min-height: 100vh;
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0 32px+64px 0;
+    gap: 2rem;
+    background-color: var(--color-blue-5);
+
+    .btn__container_category {
+        display: flex;
+        justify-content: flex-end;
+        width: 90%;
+
+        .btn__category {
+            display: flex;
+            gap: 0.3rem;
+            width: fit-content;
+            cursor: pointer;
+            padding: 0.5rem;
+
+            .add__btn_category {
+                padding: 0;
+                background: none;
+                border: none;
+                color: var(--color-blue-1);
+                font-size: var(--font-size-7);
+                font-weight: var(--font-weight-2);
+                cursor: pointer;
+            }
+        }
+
+        .btn__category:hover {
+            background-color: var(--color-blue-3);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .tasklist__container {
+        background-color: var(--color-blue-3);
+        padding: 1rem 2rem;
+        height: fit-content;
+        width: 90%;
+        box-sizing: border-box;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+
+        .tasklist__category {
+            color: var(--color-blue-1);
+            font-weight: var(--font-weight-3);
+            font-size: var(--font-size-5);
+        }
+
+        .task__container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--color-blue-4);
+            padding: 0.5rem;
+            border-radius: 6px;
+
+            .task__name {
+                font-size: var(--font-size-6);
+                font-weight: var(--font-weight-2);
+            }
+
+            .button__container {
+                display: flex;
+                gap: 0.2rem;
+
+                .task__button {
+                    height: 32px;
+                    border: none;
+                    border-radius: 4px;
+                    background-color: var(--color-blue-5);
+                    justify-content: center;
+                    align-items: center;
+                    color: var(--color-blue-1);
+                    cursor: pointer;
+
+                    .button__img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+
+                .task__button:hover {
+                    background-color: var(--color-blue-2);
+                }
+            }
+        }
+
+        .btn__container_task {
+            display: flex;
+            gap: 0.3rem;
+            padding: 0.5rem 0;
+            justify-content: flex-end;
+            cursor: pointer;
+
+            .btn__body {
+                background-color: var(--color-blue-4);
+                justify-self: flex-end;
+                display: flex;
+                border-radius: 6px;
+                padding: 5px;
+
+                .add__btn_task {
+                    background: none;
+                    border: none;
+                    color: var(--color-blue-1);
+                    font-size: var(--font-size-7);
+                    font-weight: var(--font-weight-2);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+.modalOverlay {
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    inset: 0;
+
+    width: 100%;
+    height: 100vh;
+    background: #0000004d;
+}
+
+.modalBox {
+    position: absolute;
+    width: 92%;
+    border-radius: 16px;
+    max-width: 512px;
+    background: var(--color-white);
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        width: 92%;
+        margin: 0 auto;
+        align-items: center;
+
+        .title__2 {
+            font-size: var(--font-size-4);
+            font-weight: var(--font-weight-3);
+            color: var(--color-blue-1);
+        }
+
+        .close__btn {
+            background: none;
+            border: none;
+            font-size: var(--font-size-4);
+            font-weight: var(--font-weight-3);
+            cursor: pointer;
+        }
+    }
+
+    .paragraph {
+        display: flex;
+        justify-content: space-between;
+        width: 92%;
+        margin: 0 auto;
+        align-items: center;
+        font-size: var(--font-size-6);
+        font-weight: var(--font-weight-2);
+        color: var(--color-blue-1);
+    }
+    .btn__container{
+        display: flex;
+        gap: 1rem;
+        justify-content: flex-end;
+        width: 92%;
+        .cancel__btn{
+            background-color: var(--color-warning);
+            border: none;
+            border-radius: 6px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+        .cancel__btn:hover{
+            background-color: var(--color-warning-hover);
+        }
+        .confirm__btn{
+            background-color: var(--color-white);
+            border: 1px solid;
+            border-radius: 6px;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+        .confirm__btn:hover{
+            background-color: var(--color-blue-3);
+            border: 1px solid var(--color-blue-3);
+        }
+    }
+}

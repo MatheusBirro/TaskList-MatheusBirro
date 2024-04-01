@@ -1,0 +1,40 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin: 0 auto;
+    padding: 0 5%;
+    background-color: var(--color-blue-4);
+
+    .btn__home {
+        color: var(--color-blue-1);
+        font-size: clamp(var(--font-size-2-mobile), var(--font-size-2-mobile) + 1vw, var(--font-size-1-mobile));
+        font-weight: var(--font-weight-3);
+        padding: 0.5rem 0.3rem;
+        border-radius: 6px;
+    }
+
+    .btn__home:hover {
+        color: var(--color-blue-1);
+        background-color: var(--color-blue-3);
+        cursor: pointer;
+    }
+
+    .profile__container {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        align-items: center;
+
+        .img__profile {
+            height: 20px;
+            width: 20px;
+        }
+
+        .name__profile {
+            font-size: var(--font-size-7);
+            font-weight: var(--font-weight-2);
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.tasklist__container {
+  background-color: var(--color-blue-3);
+  padding: 1rem 2rem;
+  height: fit-content;
+  width: 90%;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+
+  .header__category {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .tasklist__category {
+      color: var(--color-blue-1);
+      font-weight: var(--font-weight-3);
+      font-size: var(--font-size-5);
+    }
+
+    .delete__category {
+      background: none;
+      border: none;
+      color: var(--color-blue-1);
+      font-weight: var(--font-weight-3);
+      font-size: var(--font-size-4);
+      cursor: pointer;
+    }
+  }
+
+  .btn__container_task {
+    display: flex;
+    gap: 0.3rem;
+    padding: 0.5rem 0;
+    justify-content: flex-end;
+
+    .btn__body {
+      background-color: var(--color-blue-4);
+      justify-self: flex-end;
+      display: flex;
+      border-radius: 6px;
+      padding: 5px;
+      cursor: pointer;
+
+      .add__btn_task {
+        background: none;
+        border: none;
+        color: var(--color-blue-1);
+        font-size: var(--font-size-7);
+        font-weight: var(--font-weight-2);
+        cursor: pointer;
+      }
+    }
+
+    .btn__body:hover {
+      background-color: var(--color-blue-5);
+    }
+  }
+}

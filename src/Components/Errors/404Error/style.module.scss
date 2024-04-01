@@ -1,0 +1,26 @@
+.body__container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blue-5);
+
+    .error__container {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+
+        .title__2 {
+            font-size: var(--font-size-1);
+            font-weight: var(--font-weight-3);
+        }
+
+        .title__3 {
+            font-size: var(--font-size-1-mobile);
+            font-weight: var(--font-weight-2);
+        }
+    }
+}

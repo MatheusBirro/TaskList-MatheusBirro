@@ -1,0 +1,46 @@
+.task__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-blue-4);
+    padding: 0.5rem;
+    border-radius: 6px;
+
+    .task__name {
+        font-size: var(--font-size-6);
+        font-weight: var(--font-weight-2);
+        cursor: pointer;
+    }
+
+    .task__name:hover {
+        background-color: var(--color-blue-2);
+    }
+
+    .button__container {
+        display: flex;
+        gap: 0.2rem;
+
+        .task__button {
+            height: 32px;
+            border: none;
+            border-radius: 4px;
+            background-color: var(--color-blue-5);
+            justify-content: center;
+            align-items: center;
+            color: var(--color-blue-1);
+            cursor: pointer;
+
+            .button__img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+
+        .task__button:hover {
+            background-color: var(--color-blue-2);
+        }
+    }
+}
+.task__container:has(> .task__name:hover ) {
+    background-color: var(--color-blue-2);
+}
