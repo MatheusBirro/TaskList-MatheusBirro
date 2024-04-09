@@ -41,14 +41,14 @@ export const LoginForm = () => {
           >
             {loading ? "Carregando" : "Login"}
           </button>
-          <a
+          <button
             onClick={() => {
               navigate("/register");
             }}
             className={styles.btn__register}
           >
             Criar nova conta
-          </a>
+          </button>
         </div>
       </form>
     </div>
