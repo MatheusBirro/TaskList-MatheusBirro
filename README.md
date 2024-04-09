@@ -1,3 +1,16 @@
+<div align="center">
+  <img src="https://github.com/MatheusBirro/TaskList-MatheusBirro/assets/134952061/25ed0000-48ae-4aec-85ad-da646d789757" width="150px">
+  <img src="https://github.com/MatheusBirro/TaskList-MatheusBirro/assets/134952061/518f60fc-fb6c-47fd-bbab-94f9523d9057" width="150px">
+  <img src="https://github.com/MatheusBirro/TaskList-MatheusBirro/assets/134952061/70dc9047-ca2c-42fb-bbc5-63d942b5cf7e" width="150px">
+  <img src="https://github.com/MatheusBirro/TaskList-MatheusBirro/assets/134952061/301e213e-9fce-435f-be41-304dddf4a722" width="150px">
+</div>
+
+<div align="center">
+  <img src="https://github.com/MatheusBirro/TaskList-MatheusBirro/assets/134952061/0c79af58-0f1b-4577-b65b-74cff0c34960" width="150px">
+  <img src="https://github.com/MatheusBirro/TaskList-MatheusBirro/assets/134952061/3ea25085-bfda-4929-b928-f1bf153735f0" width="150px">
+  <img src="https://github.com/MatheusBirro/TaskList-MatheusBirro/assets/134952061/69641cba-19a8-4ddd-bb92-b67115e72e66" width="150px">
+</div>
+
 # TaskList Front-End.
 
 ## Inicialização do projeto.
@@ -16,7 +29,7 @@ O projeto consiste em um site para organização de tarefas dividindo elas em ca
 ## TaskList API
 
 - **Documentação**: <https://github.com/Kenzie-Academy-Brasil-Developers/Kenzie-Academy-Brasil-Developers-m5-template-entrega1-matheusbirro>
-- **URL Base**: <https://kenzie-academy-brasil-developers-m5-5gcq.onrender.com>
+- **URL Base**: <https://kenzie-academy-brasil-developers-m5-5gcq.onrender.com/>
 
 > [!WARNING]
 > Como a API está rodando em um servidor grátis pode ser que ela demore um pouco para iniciar.
